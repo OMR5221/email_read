@@ -4,13 +4,13 @@ from exchangelib import DELEGATE, IMPERSONATION, Account, Credentials, ServiceAc
         HTMLBody, Build, Version
 
 creds = Credentials(
-    username="ESINT\\OXR0MQY",
-    password="APk@fk@072019!")
+    username="",
+    password="")
 
-config = Configuration(server='fpl.com', credentials=creds)
+config = Configuration(server='', credentials=creds)
 
 account = Account(
-    primary_smtp_address="Oswald.Ramirez@nexteraenergy.com",
+    primary_smtp_address="",
     autodiscover=False,
     config = config,
     access_type=DELEGATE)
